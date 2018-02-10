@@ -14,3 +14,8 @@ print(motorcycles)
 print(popped_motorcycles)
 first_owned = motorcycles.pop(0)
 print("My first motorcycle was a " + first_owned.title() + ".")
+print(motorcycles)
+too_expensive = 'yamaha'
+motorcycles.remove(too_expensive)
+print(motorcycles)
+print("The " + too_expensive.title() + " is too pricey for me")
