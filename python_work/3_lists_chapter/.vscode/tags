@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+3-1_names.py	../3-1_names.py	1;"	kind:file	line:1
+3-2_greetings.py	../3-2_greetings.py	1;"	kind:file	line:1
+3-3_your_own_list.py	../3-3_your_own_list.py	1;"	kind:file	line:1
+3-4_guest_list.py	../3-4_guest_list.py	1;"	kind:file	line:1
+3-5_changing_guest_list.py	../3-5_changing_guest_list.py	1;"	kind:file	line:1
+3-6_more_guests.py	../3-6_more_guests.py	1;"	kind:file	line:1
+3-7_shrinking_guest_list.py	../3-7_shrinking_guest_list.py	1;"	kind:file	line:1
+bicycles	../bicycles.py	/^bicycles = ['trek', 'cannondale', 'redline', 'specialized']$/;"	kind:variable	line:1
+bicycles.py	../bicycles.py	1;"	kind:file	line:1
+cant_arrive	../3-5_changing_guest_list.py	/^cant_arrive = ' cannot attend the party.'$/;"	kind:variable	line:3
+cant_arrive	../3-6_more_guests.py	/^cant_arrive = ' cannot attend the party.'$/;"	kind:variable	line:3
+cant_arrive	../3-7_shrinking_guest_list.py	/^cant_arrive = ' cannot attend the party.'$/;"	kind:variable	line:3
+first_owned	../motorcycles.py	/^first_owned = motorcycles.pop(0)$/;"	kind:variable	line:15
+guests	../3-4_guest_list.py	/^guests = ['Albert Wesker', 'Chris Redfield', 'Lois lane']$/;"	kind:variable	line:1
+guests	../3-5_changing_guest_list.py	/^guests = ['Albert Wesker', 'Chris Redfield', 'Lois lane']$/;"	kind:variable	line:1
+guests	../3-6_more_guests.py	/^guests = ['Albert Wesker', 'Chris Redfield', 'Lois lane']$/;"	kind:variable	line:1
+guests	../3-7_shrinking_guest_list.py	/^guests = ['Albert Wesker', 'Chris Redfield', 'Lois lane']$/;"	kind:variable	line:1
+invitation	../3-4_guest_list.py	/^invitation = ', will you attend my dinner party this weekend?'$/;"	kind:variable	line:2
+invitation	../3-5_changing_guest_list.py	/^invitation = ', will you attend my dinner party this weekend?'$/;"	kind:variable	line:2
+invitation	../3-6_more_guests.py	/^invitation = ', will you attend my dinner party this weekend?'$/;"	kind:variable	line:2
+invitation	../3-7_shrinking_guest_list.py	/^invitation = ', will you attend my dinner party this weekend?'$/;"	kind:variable	line:2
+larger_table_message	../3-6_more_guests.py	/^larger_table_message = 'Good news all, more can join the party!'$/;"	kind:variable	line:4
+larger_table_message	../3-7_shrinking_guest_list.py	/^larger_table_message = 'Good news all, more can join the party!'$/;"	kind:variable	line:4
+list_favorite_bikes	../3-3_your_own_list.py	/^list_favorite_bikes = ['Honda', 'Ducati']$/;"	kind:variable	line:2
+list_favorite_cars	../3-3_your_own_list.py	/^list_favorite_cars = ['Ford Mustang', 'Volkswagen Jetta', 'Toyota Camry']$/;"	kind:variable	line:1
+list_favorite_n64games	../3-3_your_own_list.py	/^list_favorite_n64games = ['Goldeneye', 'Super Mario 64', 'DK 64']$/;"	kind:variable	line:3
+list_friends	../3-1_names.py	/^list_friends = ['Alex', 'Eli', 'Sam', 'Dylan']$/;"	kind:variable	line:1
+list_friends	../3-2_greetings.py	/^list_friends = ['Alex', 'Eli', 'Sam', 'Dylan']$/;"	kind:variable	line:1
+message	../3-2_greetings.py	/^message = " is one of my friends."$/;"	kind:variable	line:7
+message	../bicycles.py	/^message = "My first bicycle was a " + bicycles[0].title() + "."$/;"	kind:variable	line:6
+motorcycles	../motorcycles.py	/^motorcycles = ['honda', 'yamaha', 'suzuki']$/;"	kind:variable	line:1
+motorcycles.py	../motorcycles.py	1;"	kind:file	line:1
+not_coming_lists	../3-7_shrinking_guest_list.py	/^not_coming_lists = [guests.pop()]$/;"	kind:variable	line:24
+popped_motorcycles	../motorcycles.py	/^popped_motorcycles = motorcycles.pop()$/;"	kind:variable	line:12
+too_expensive	../motorcycles.py	/^too_expensive = 'yamaha'$/;"	kind:variable	line:18

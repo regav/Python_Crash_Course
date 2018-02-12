@@ -30,3 +30,6 @@ print(str(not_coming_lists) + " are not able to attend.")
 not_coming_lists.append(guests.pop())
 print(str(not_coming_lists) + " are not able to attend the party.")
 print(str(guests) + ' will be attending the party.')
+del guests[0]
+del guests[0]
+print('Are coming' + str(guests))
