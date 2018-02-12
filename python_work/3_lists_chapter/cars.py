@@ -11,3 +11,4 @@ print(cars)
 
 cars.reverse()
 print(cars)
+print("The length of my list is " + str(len(cars)) + ".")
