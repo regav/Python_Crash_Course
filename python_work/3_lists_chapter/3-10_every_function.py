@@ -1,0 +1,31 @@
+pc_components = ['CPU', 'RAM', 'SSD', 'HHD', 'Mother board', 'PSU',]
+pc_components_removed = []
+pc_components_purchased = []
+print("My list is of PC parts. Here is a list of required PC parts: \n" + str(pc_components))
+print("\nHere is the same list but sorted using sorted() function:\n" + str(sorted(pc_components)))
+print("\nUsing the len() function I can tell you will need at least " + str(len(pc_components)) + " parts to have a working PC.")
+print("Using the .sort() method I will make the list permantly sorted.")
+pc_components.sort()
+print("Here is the list sorted FOREVER:\n" + str(pc_components))
+pc_components.reverse()
+print("\nHere is the list in its new sorted form but reversed " + str(pc_components))
+print("The current first item in the list is (by using index) " + str(pc_components[0]))
+print("The last item in the list (by using index -1) is " + str(pc_components[-1]))
+print("SSDs can be removed from the list as they are more expensive and a normal HDD would work fine.")
+pc_components_removed.append(pc_components.pop(0))
+print("This is the list without SSDs:\n" + str(pc_components))
+print("This is the list of removed PC parts:\n" + str(pc_components_removed))
+print("We have purchased nothing so far. Let's go go the store and buy a CPU")
+pc_components_purchased.append("CPU")
+print("Our current list of PC parts purchased is: " + str(pc_components_purchased) + " so we will need to take it off the list of PC parts to get")
+pc_components.remove("CPU")
+print("We only need these parts now:" + str(pc_components) + " so let's go to the store and buy some RAM for our PC.")
+del pc_components[0]
+pc_components_purchased.append("RAM")
+print("Now we have these parts:" + str(pc_components_purchased) + " and we only need to buy:" + str(pc_components))
+print("I am going to add fans to the front of our PC part list to buy.")
+pc_components.insert(0, "fans")
+print("We need to buy:" + str(pc_components))
+print("I changed my mind we dont need fans, we actually need a case! I will add it to the list")
+pc_components[0] = "Case"
+print("This is the correct list of PC parts we need to buy:" + str(pc_components))
