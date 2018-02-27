@@ -14,3 +14,14 @@ print(my_foods)
 
 print("\nMy friend's favorite foods are:")
 print(friends_foods)
+
+print(my_foods + friends_foods)
+
+example_friend_foods = my_foods
+example_friend_foods.append('bananas')
+print("This is my favorite foods:")
+print(my_foods)
+print("\nThis is 'example_friend_food list of favorite foods:")
+print(example_friend_foods)
+print("\nBy setting a varaible to = another list, it only makes the varaible point to the same list as the original list")
+print(" to really make a copy you must use the slice notation [:].")
