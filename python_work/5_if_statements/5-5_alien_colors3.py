@@ -15,7 +15,7 @@ elif alien_color == 'yellow':
 else:
     print(red_message)
 ## The book wants me to write 3 versions of this program.
-print("\n\n")
+print("\n"*2)
 
 alien_color = 'red'
 if alien_color == 'green':
