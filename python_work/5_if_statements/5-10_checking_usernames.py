@@ -26,12 +26,17 @@ else:
     print("There is no new username requests.")
 
 print("\n\n\n")
-if new_users:
+
+if new_user:
     for new_user in new_users:
+        found = False
         for current_user in current_users:
             if new_user.lower() == current_user.lower():
-                print("You cannot use this username: " + new_user + ", please use another.")
-    else:
-        print("You may use this username: " + new_user + ".")
+                found = True
+        if found == True:
+            print("You cannot use this username: " + new_user + ".")
+        elif found == False:
+            print("You can use this username: " + new_user + ".")
+
 else:
     print("There is no new username requests.")
