@@ -30,3 +30,16 @@ print("\n\n")
 
 for name in sorted(favorite_languages.keys()):
     print(name.title() + ", thank you for taking our poll.")
+
+
+print("\n\n")
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+    print(language.title())
+
+# to produce a list without repeats by using the 'set' function
+print("\n\n")
+
+print("The following lanugages have been mentioned:")
+for lanugage in set(favorite_languages.values()):
+    print(lanugage.title())
