@@ -43,3 +43,33 @@ print("\n\n")
 print("The following lanugages have been mentioned:")
 for lanugage in set(favorite_languages.values()):
     print(lanugage.title())
+    
+# pg 112 changing structure of dictionary to allow more than one favorite 
+# lanuguage by making the values into lists
+print("\n\n")
+favoite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+## THE CODE GOES WRONG BECAUSE I CALL OUT favorite_languages.items()
+## BUT THE DICTIONARY IS MISSSPELLED favoite_languages
+for name, languages in favorite_languages.items():
+    print("\n" + name.title() + "'s favorite languages are:")
+    for language in languages:
+        print("\t" + language.title())
+## I DID A SPELLING WRONG SOMEWHERE, THIS PRODUCES WEIRD OUTPUT
+## ON THE CODE ABOVE... CORRECT CODE IS BELOW
+
+favorite_languages = {
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
+}
+
+for name, languages in favorite_languages.items():
+    print("\n" + name.title() + "'s favorite languages are:")
+    for language in languages:
+        print("\t" + language.title())
