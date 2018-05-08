@@ -87,3 +87,8 @@ print("...")
 print("Total number of aliens: " + str(len(aliens)))
 
 #print("\n" + "This is all the aliens" + str(aliens))
+print("\nThis is all the aliens.")
+simple_counter = 0
+for alien in aliens:
+    simple_counter = simple_counter + 1
+    print(str(simple_counter) + str(alien))
